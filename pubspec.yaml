@@ -1,0 +1,51 @@
+name: gymplus
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_bloc: ^8.1.1
+
+  cupertino_icons: ^1.0.2
+
+  firebase_core: ^2.21.0
+  firebase_auth: ^4.12.1
+  firebase_storage: ^11.4.1
+
+  dots_indicator: ^3.0.0
+
+  percent_indicator: ^4.2.3
+
+  flutter_local_notifications: ^16.1.0
+
+  flutter_secure_storage: ^9.0.0
+
+  url_launcher: ^6.2.1
+
+  sliding_up_panel: ^2.0.0+1
+
+  image_picker: ^1.0.4
+
+  flutter_native_timezone: ^2.0.0
+
+  custom_timer: ^0.2.3
+  
+  chewie_video_player: ^2.4.6
+  chewie: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
